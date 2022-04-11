@@ -27,7 +27,11 @@ void setup()
 //
 void draw() 
 {
-  if () {} else {}
+  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) {
+    buttonColour = orange;
+  } else {
+    buttonColour = blue;
+  }
   buttonColour = blue; //orange
   fill(buttonColour);
   rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
