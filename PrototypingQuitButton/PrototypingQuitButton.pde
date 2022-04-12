@@ -57,4 +57,5 @@ void keyPressed()
 //
 void mousePressed() 
 {
+  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
 }//End mousePressed
