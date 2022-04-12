@@ -21,7 +21,7 @@ void keyPressed()
   quitButtonkeyPressed();
 }//End keyPressed
 //
-void mousePressed() 
+void mousePressed()
 {
   quitButtonmousePressed();
 }//End mousePressed
