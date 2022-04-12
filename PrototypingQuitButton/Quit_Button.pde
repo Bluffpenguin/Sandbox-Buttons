@@ -2,10 +2,10 @@
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 color blue=#406AE3, orange=#E38F00, buttonColour; //Notice NightMode Blue Values
 //
-void quitButtonSetupPopulation(int canvasCenter) 
+void quitButtonSetupPopulation(int centerX, int centerY) 
 { //Ignore Parameter concept
-  quitButtonX = (appWidth*1/2) - appWidth*1/4; // 1/4 on one-half, 1/4 on other half
-  quitButtonY = canvasCenter - appHeight*1/4;
+  quitButtonX = centerX - appWidth*1/4; // 1/4 on one-half, 1/4 on other half
+  quitButtonY = centerY - appHeight*1/4;
   quitButtonWidth = appWidth*1/2;
   quitButtonHeight = appHeight*1/2;
 }//End quitButtonSetup
